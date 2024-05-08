@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container"><br>
+        <button id="first">OTP GENERATOR</button><br>
+        <button id="otp1">OTP</button>
+        <button id="otp">GENERATE OTP</button>
+        
+
+
+
+    </div>
+    <script>
+        let getid1=document.getElementById("container")
+            getid1.style.border="3px solid black";
+            getid1.style.height="400px";
+            getid1.style.width="400px";
+            getid1.style.boxShadow="0px 1px 10px 1px black";
+            getid1.style.textAlign="center";
+            //getid1.style.borderRadius="10px";
+            getid1.style.backgroundColor="aqua";
+            getid1.style.display="flex"
+            getid1.style.flexDirection="column"
+            getid1.style.gap="30px"
+            getid1.style.alignItems="center"
+            
+
+        let getBtn1=document.getElementById("first")
+            getBtn1.style.backgroundColor="pink";
+            getBtn1.style.fontSize="30px";
+            getBtn1.style.border="none";
+            getBtn1.style.boxShadow="0px 1px 3px 1px";
+            getBtn1.style.marginTop="20px";
+            getBtn1.style.borderRadius="6px";
+
+
+
+            
+        let getBtn3=document.getElementById("otp1")
+           getBtn3.style.fontSize="50px";
+           getBtn3.style.display="block";
+           
+
+        let getBtn2=document.getElementById("otp")
+            getBtn2.style.fontSize="20px";
+            getBtn2.style.backgroundColor="pink";
+            getBtn2.style.marginTop="15px";
+            getBtn2.style.borderRadius="5px";
+            getBtn2.style.boxShadow="0px 1px 3px 0px";
+
+           
+
+            otp.addEventListener("click",()=>{
+                otp1.innerHTML=Math.floor(Math.random()*5000)
+    
+            })
+
+            
+    </script>
+</body>
+</html>
